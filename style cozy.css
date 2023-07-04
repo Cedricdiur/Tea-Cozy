@@ -1,0 +1,154 @@
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    
+}
+
+/* Header part */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid seashall ;
+    height: 69px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+   
+}
+
+nav {
+    display: inline-flex;
+    justify-content: start;
+   
+}
+
+nav ul {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: underline;
+    list-style: none;
+    
+}
+
+/* Main container */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 69px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* div background */
+.background {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 800px;
+    width: 100%;
+    margin: 10px;
+}
+
+.mission {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+.tea-month{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tea-month-header{
+    text-align: center;
+    
+}
+
+.tea-month-body{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.tea-item{
+    width: 300px;
+    text-align: center;
+}
+
+.tea-item img{
+    height: 200px;
+    width: inherit;
+}
+
+.tea-item p{
+    margin: 10px 0;
+}
+
+.locations {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);  
+}
+
+.title-location {
+    opacity: 1;
+    background-color: transparent;
+    display: inline-flex;
+    align-content: center;
+    
+}
+.cards {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.location-cards {
+    
+    height: 300px;
+    width: 300px;
+    gap: 15px;
+    color: seashell;
+   
+}
+
+.item {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    line-height: 1.5em;
+}
+
+
+/* Contact */
+
+.contact{
+    text-align: center;
+    height: 200px;
+    
+}
